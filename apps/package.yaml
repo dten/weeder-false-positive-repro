@@ -1,0 +1,16 @@
+name: apps
+version: 1.0.0
+
+dependencies:
+  - base
+
+executables:
+  app:
+    main: Main.hs
+    source-dirs:
+    - app
+    - src
+
+library:
+  source-dirs:
+  - src
