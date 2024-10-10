@@ -9,7 +9,8 @@ executables:
     main: Main.hs
     source-dirs:
     - app
-    - src
+    dependencies:
+      - apps
 
 library:
   source-dirs:

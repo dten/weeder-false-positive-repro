@@ -22,11 +22,10 @@ library
 executable app
   main-is: Main.hs
   other-modules:
-      ActuallyUsedModule
       Paths_apps
   hs-source-dirs:
       app
-      src
   build-depends:
-      base
+      apps
+    , base
   default-language: Haskell2010
